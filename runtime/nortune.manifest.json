@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "repository": "officialjivaro/website-nortune-net",
+  "runtimePath": "public/calculators/credit-card-payoff-calculator/app/",
+  "files": [
+    {
+      "path": "assets/index-BfFWV_u1.js",
+      "bytes": 340874,
+      "sha256": "2d78acd4f51391a49f6278aebbe315583a8b7fba79155e668d8e38e63907f8f7"
+    },
+    {
+      "path": "assets/index-HGHVBjzC.css",
+      "bytes": 23413,
+      "sha256": "3b27c51f4fb6fb52ae04a845488ac3f580772632440e853ab144f50f1709d439"
+    },
+    {
+      "path": "assets/nortune-runtime-fixes-8f3d2a.js",
+      "bytes": 4050,
+      "sha256": "25c61e8a372bd44a447e288e9fcf563164bf148d1ba17dc7cfd68b8f6ee8a0e3"
+    },
+    {
+      "path": "assets/nortune-storage-guard-c4f8a1.js",
+      "bytes": 1028,
+      "sha256": "c5f347d92355402e2283d4c383aaf80133e1a0c8facb02b9f3a01e565d033ade"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1957,
+      "sha256": "c04c133e249403d0f722274fed9e06b5830c8ec7e60ec7d6e1364c20486b4664"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Payoff Calculator | Nortune</title>
+    <meta name="description" content="Estimate a credit card payoff date, total interest, required payment, and the impact of extra payments with a private browser-based calculator.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#f5f3ef">
+    <meta name="application-name" content="Credit Card Payoff Calculator">
+    <meta name="color-scheme" content="light">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Credit Card Payoff Calculator">
+    <meta property="og:description" content="Compare payoff strategies, model changing minimum payments, and estimate the recurring payment needed to reach a target date.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Credit Card Payoff Calculator">
+    <meta name="twitter:description" content="Estimate payoff time, total interest, and savings from extra credit card payments.">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Credit Card Payoff Calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Web Browser",
+        "description": "A browser-based calculator for estimating credit card payoff time, total interest, changing minimum payments, and target-date payment requirements.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does paying weekly or biweekly always save interest?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "More frequent payments can reduce the average balance when money reaches the card earlier, but the result depends on the amount paid at each interval and the issuer's interest method."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the calculator estimate a changing minimum payment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It recalculates the estimated minimum each monthly statement using either a percentage of the current balance or accrued interest plus a chosen principal percentage, subject to a minimum currency floor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does target payoff date mode calculate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It estimates the starting recurring payment required to pay the balance by the selected date while including the promotional rate, extra payments, lump sum, and annual payment increases entered in the plan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will the estimate match a credit card statement exactly?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not necessarily. Issuers may use average daily balances, compounding conventions, fees, statement timing, and minimum-payment rules that differ from this simplified daily-interest model."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does changing the currency convert the amounts?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Currency selection changes number formatting only. The calculator does not fetch exchange rates or convert values."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the information entered into the calculator private?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Calculator values and saved settings remain in this browser and are not submitted to Nortune. General page-level analytics may record a visit, but they must not receive balances, APRs, payments, dates, or other calculator inputs."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

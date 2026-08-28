@@ -1,0 +1,34 @@
+:root {
+  --ink-950: #111820;
+  --ink-900: #17202a;
+  --ink-800: #202b36;
+  --ink-700: #2b3744;
+  --ink-600: #3a4653;
+  --slate-500: #7b8490;
+  --text-muted: #3a4653;
+  --control-border: #7b8490;
+  --slate-300: #aab1b8;
+  --line: #cfd6dc;
+  --paper: #f5f3ef;
+  --paper-bright: #fffefb;
+  --paper-soft: #ebe8e1;
+  --copper: #c9874a;
+  --copper-deep: #a76b33;
+  --copper-ink: #75471f;
+  --gold: #d5a348;
+  --gold-ink: #76520b;
+  --coral: #c96b61;
+  --coral-ink: #8a3f38;
+  --success: #5e8067;
+  --success-ink: #36523d;
+  --shadow-sm: 0 12px 30px rgb(17 24 32 / 0.07);
+  --shadow-md: 0 22px 60px rgb(17 24 32 / 0.11);
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+  --radius-xl: 40px;
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: Charter, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --focus: 0 0 0 3px rgb(201 135 74 / 0.32);
+}

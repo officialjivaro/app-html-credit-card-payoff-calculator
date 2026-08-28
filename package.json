@@ -1,0 +1,28 @@
+{
+  "name": "credit-card-payoff-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/build-nortune-runtime.mjs",
+    "preview": "vite preview",
+    "verify": "node scripts/verify-project.mjs",
+    "verify:app-dist": "node scripts/verify-project.mjs --dist",
+    "verify:dist": "node scripts/verify-nortune-dist.mjs",
+    "manifest:refresh": "node scripts/create-nortune-manifest.mjs",
+    "qc": "npm run verify && npm run build && npm run verify:app-dist && npm run verify:dist",
+    "check": "npm run qc"
+  },
+  "dependencies": {
+    "chart.js": "4.5.1",
+    "vue": "3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "5.2.3",
+    "vite": "6.4.3"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
