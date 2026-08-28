@@ -48,7 +48,7 @@ function chartColors() {
   const styles = getComputedStyle(document.documentElement)
   return {
     ink: styles.getPropertyValue('--ink-950').trim() || '#111820',
-    muted: styles.getPropertyValue('--slate-500').trim() || '#7b8490',
+    muted: styles.getPropertyValue('--text-muted').trim() || '#3a4653',
     line: styles.getPropertyValue('--line').trim() || '#cfd6dc',
     copper: styles.getPropertyValue('--copper-deep').trim() || '#a76b33',
     coral: styles.getPropertyValue('--coral').trim() || '#c96b61',

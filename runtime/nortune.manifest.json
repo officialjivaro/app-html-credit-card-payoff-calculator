@@ -5,13 +5,13 @@
   "files": [
     {
       "path": "assets/index-BfFWV_u1.js",
-      "bytes": 340874,
-      "sha256": "2d78acd4f51391a49f6278aebbe315583a8b7fba79155e668d8e38e63907f8f7"
+      "bytes": 340875,
+      "sha256": "5d3b40b1f6ee05b285d8c18c17a673fd6195a0f7ce095741dc4ed0444c488a38"
     },
     {
       "path": "assets/index-HGHVBjzC.css",
-      "bytes": 23413,
-      "sha256": "3b27c51f4fb6fb52ae04a845488ac3f580772632440e853ab144f50f1709d439"
+      "bytes": 23536,
+      "sha256": "41f2e858e6558647f01e193e39728d339d3b6700ed9168908e1d177472b0d6b0"
     },
     {
       "path": "assets/nortune-runtime-fixes-8f3d2a.js",

@@ -5,7 +5,7 @@
   --ink-700: #2b3744;
   --ink-600: #3a4653;
   --slate-500: #7b8490;
-  --text-muted: #3a4653;
+  --text-muted: var(--ink-600);
   --control-border: #7b8490;
   --slate-300: #aab1b8;
   --line: #cfd6dc;

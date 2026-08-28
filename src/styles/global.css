@@ -299,7 +299,7 @@ h3 {
 
 .section-header > p:last-child {
   margin-bottom: 0;
-  color: var(--slate-500);
+  color: var(--text-muted);
 }
 
 /* Buttons | Shared Nortune pill controls */
@@ -386,7 +386,7 @@ h3 {
 
 .mode-selector p:last-child {
   margin-bottom: 0;
-  color: var(--slate-500);
+  color: var(--text-muted);
 }
 
 .mode-selector__options {
@@ -425,7 +425,7 @@ h3 {
 }
 
 .mode-option span {
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.82rem;
   line-height: 1.45;
 }
@@ -488,7 +488,7 @@ h3 {
 .panel__header p:last-child {
   max-width: 720px;
   margin-bottom: 0;
-  color: var(--slate-500);
+  color: var(--text-muted);
 }
 
 .panel__header--split {
@@ -570,7 +570,7 @@ h3 {
 .field > small {
   display: block;
   margin-top: 0.3rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.76rem;
   line-height: 1.4;
 }
@@ -651,7 +651,7 @@ h3 {
 
 .input-with-unit > span {
   min-width: 2.2rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.82rem;
   font-weight: 750;
 }
@@ -676,7 +676,7 @@ h3 {
 .field > small {
   display: block;
   margin-top: 0.3rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.76rem;
   line-height: 1.4;
 }
@@ -721,7 +721,7 @@ h3 {
 .assumption-note {
   width: 100%;
   margin: 0;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.8rem;
 }
 
@@ -767,7 +767,7 @@ h3 {
 .advanced-disclosure summary small,
 .monthly-breakdown summary small {
   margin-top: 0.2rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.78rem;
 }
 
@@ -854,7 +854,7 @@ h3 {
 
 .empty-results p {
   margin: 0.4rem 0 0;
-  color: var(--slate-500);
+  color: var(--text-muted);
 }
 
 .stale-banner {
@@ -892,7 +892,7 @@ h3 {
 }
 
 .hero-result-card span {
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.76rem;
   font-weight: 800;
   letter-spacing: 0.03em;
@@ -943,7 +943,7 @@ h3 {
   justify-content: space-between;
   gap: 1rem;
   margin: 0.45rem 0 1.1rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.78rem;
 }
 
@@ -985,7 +985,7 @@ h3 {
 .kpi-card span,
 .insight-card span,
 .comparison-grid span {
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.76rem;
   font-weight: 800;
   letter-spacing: 0.025em;
@@ -1016,7 +1016,7 @@ h3 {
 .kpi-card small,
 .insight-card small,
 .comparison-grid small {
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.74rem;
   line-height: 1.4;
 }
@@ -1035,7 +1035,7 @@ h3 {
 }
 
 .section-heading-row p {
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.86rem;
 }
 
@@ -1085,7 +1085,7 @@ h3 {
 
 .milestone-row small,
 .milestone-row > span:last-child {
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.78rem;
 }
 
@@ -1142,7 +1142,7 @@ h3 {
 .chart-summary {
   margin: 0;
   padding: 0 1rem 1rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.82rem;
 }
 
@@ -1228,7 +1228,7 @@ tbody tr:hover {
 .monthly-breakdown__actions p {
   max-width: 760px;
   margin-bottom: 0;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.84rem;
 }
 
@@ -1238,7 +1238,7 @@ tbody tr:hover {
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem clamp(1.1rem, 2.2vw, 1.8rem);
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.82rem;
   border-top: 1px solid var(--line);
 }
@@ -1277,7 +1277,7 @@ tbody tr:hover {
 
 .guide-grid p {
   margin-bottom: 0;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.88rem;
 }
 
@@ -1323,7 +1323,7 @@ tbody tr:hover {
   max-width: 900px;
   margin: 0;
   padding: 0 1.2rem 1.2rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
 }
 
 .app-disclaimer {
@@ -1397,7 +1397,14 @@ tbody tr:hover {
 @media (max-width: 720px) {
   .app-header__inner {
     min-height: 68px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.75rem;
     padding: 0.65rem 1rem;
+  }
+
+  .app-header__identity {
+    width: 100%;
   }
 
   .app-header__mark {
@@ -1407,8 +1414,11 @@ tbody tr:hover {
   }
 
   .app-header__name {
-    max-width: 48vw;
+    max-width: none;
+    overflow: visible;
     font-size: 0.98rem;
+    text-overflow: clip;
+    white-space: normal;
   }
 
   .app-header__attribution {
@@ -1416,10 +1426,12 @@ tbody tr:hover {
   }
 
   .app-header__links {
+    width: 100%;
     gap: 0.35rem;
   }
 
   .app-header__links a {
+    flex: 1;
     min-height: 40px;
     padding: 0.5rem 0.7rem;
     font-size: 0.78rem;
@@ -1476,10 +1488,6 @@ tbody tr:hover {
     display: none;
   }
 
-  .app-header__name {
-    max-width: 43vw;
-  }
-
   .panel,
   .mode-selector,
   .intro-section__note,
@@ -1514,10 +1522,6 @@ tbody tr:hover {
 @media (max-width: 400px) {
   .app-header__inner {
     gap: 0.55rem;
-  }
-
-  .app-header__name {
-    max-width: 39vw;
   }
 
   .app-header__links a {
